@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-//値渡し　データを丸ごとコピーして渡す (思いデータは遅くなる)
+//値渡し　データを丸ごとコピーして渡す (重いデータは遅くなる)
 void byValue(std::string str) {
     str += "(変更)";
 }
